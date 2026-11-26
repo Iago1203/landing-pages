@@ -1,0 +1,423 @@
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.navbar {
+    background-color: #4f46e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e4e4e4;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.hero-texto {
+    max-width: 500px;
+}
+
+.hero-texto h1 {
+    font-size: 2.5rem;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.hero-texto p {
+    font-size: 1.125rem;
+    color: #687280;
+    margin-bottom: 2rem;
+}
+
+.hero-imagem {
+    text-align: center;
+}
+
+.hero-imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-cta {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #4338ca;
+}
+
+.conteudo {
+    padding: 4rem 2rem;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.card {
+    background-color: #f3f4f6;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #687280
+}
+
+.depoimentos-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    transition: transform 0.3s;
+    
+}
+
+.depoimento {
+    background-color: #f3f4f6;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+}
+
+.depoimento p {
+    color: #666;
+    font-size: 16px;
+}
+
+.depoimento span {
+    color: blue;
+    font-weight: bold;
+}
+
+.depoimento:hover{
+    transform: translateY(-5px);
+}
+
+
+.conteudo {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/* Título da seção */
+.conteudo h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+/* Container dos cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Estilo individual dos cards */
+.card {
+    background-color: #F3F4F6;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Título do card */
+.card h3 {
+    color: #4F46E5;
+    margin-bottom: 1rem;
+}
+
+/* Texto do card */
+.card p {
+    color: #6B7280;
+}
+
+.exemplos {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/* Título */
+.exemplos h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+/* Descrição */
+.exemplos-descricao {
+    color: #6B7280;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+/* Container dos exemplos */
+.exemplos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Card de exemplo */
+.exemplo-card {
+    background-color: #F3F4F6;
+    border-radius: 1rem;
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites do card */
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.exemplo-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagem do exemplo */
+.exemplo-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Título do card */
+.exemplo-card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 1rem 0.5rem;
+    color: #4f46e5;
+}
+
+/* Descrição do card */
+.exemplo-card p {
+    color: #4B5563;
+    margin: 0 1rem 1.5rem;
+    font-size: 0.95rem;
+}
+
+.aprendizado {
+    background-color: #f5f6fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.aprendizado h2 {
+    color: #222;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.aprendizado-descricao {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+/* LISTA DE ETAPAS */
+
+.etapas {
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* CADA ETAPA */
+
+.etapa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+
+/* NUMERAÇÃO AZUL */
+
+.numero {
+    background-color: #4f46e5;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+
+/* TEXTOS DAS ETAPAS */
+
+.etapa-conteudo h3 {
+    color: #2455a4;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.etapa-conteudo p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle .bar{
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+@media(max-width: 768px){
+    .menu-toggle{
+        display: flex;
+    }
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .nav-links{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #4f46e5;
+        padding: 1rem 2rem;
+        display: flex;
+        animation: slideDown 0.3s ease forwards;
+    }
+    .nav-links.show{
+        display: flex;
+    }
+    @keyframes slideDown {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+
+        }
+        
+    }
+    .menu-toggle-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+
+    }
+    .menu-toggle-active .bar:nth-child(2){
+        opacity: 0;
+
+    }
+    .menu-toggle-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
